@@ -1,0 +1,20 @@
+{
+  "ERT": {
+    "feat": "H7",
+    "params": {
+      "n_estimators": 1000,
+      "max_features": 0.8,
+      "min_samples_leaf": 1
+    },
+    "cv_auc": 0.762527511558961
+  },
+  "GB": {
+    "feat": "H15",
+    "params": {
+      "n_estimators": 500,
+      "learning_rate": 0.05,
+      "max_depth": 7
+    },
+    "cv_auc": 0.7607447009452479
+  }
+}
