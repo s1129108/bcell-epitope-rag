@@ -1,7 +1,5 @@
 # Linear B-cell epitope prediction with ESM C embeddings, a multi-window CNN, and retrieval augmentation
 
-Code for the manuscript in [`BCell_manuscript.docx`](BCell_manuscript.docx).
-
 ![overview](figures/fig0_overview.svg)
 
 Two things this repository is for:
