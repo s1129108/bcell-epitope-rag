@@ -1,0 +1,48 @@
+{
+  "config": {
+    "feature": "ProtT5",
+    "num_feature": 1024,
+    "maxseq": 25,
+    "window_sizes": [
+      11,
+      17,
+      25
+    ],
+    "num_filters": 32,
+    "num_hidden": 500,
+    "num_hidden_layers": 3,
+    "dropout": 0.7,
+    "lr": 0.0004986376243014128,
+    "batch_size": 64,
+    "epochs": 20,
+    "loss": "focal",
+    "imbalance": "None",
+    "norm": "none",
+    "seed": null,
+    "trial": 30
+  },
+  "input_shape": [
+    1,
+    25,
+    1024
+  ],
+  "independent_test": {
+    "TP": 740.0,
+    "FP": 403.0,
+    "TN": 1005.0,
+    "FN": 370.0,
+    "Sens": 0.6666666666666666,
+    "Spec": 0.7137784090909091,
+    "Acc": 0.693010325655282,
+    "MCC": 0.3793851431375489,
+    "AUC": 0.7358847128378379,
+    "PR_AUC": 0.662543228444211,
+    "F1": 0.656901908566356,
+    "Prec": 0.647419072615923,
+    "Recall": 0.6666666666666666,
+    "Threshold": 0.48365518450737
+  },
+  "weights": "best_MCNN_ProtT5.weights.h5",
+  "scaler": null,
+  "saved_at": "2026-10-24T16:33:16"
+}

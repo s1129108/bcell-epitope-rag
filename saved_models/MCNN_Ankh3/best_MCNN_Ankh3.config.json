@@ -1,0 +1,47 @@
+{
+  "config": {
+    "feature": "Ankh3",
+    "num_feature": 1536,
+    "maxseq": 25,
+    "window_sizes": [
+      22,
+      25
+    ],
+    "num_filters": 32,
+    "num_hidden": 128,
+    "num_hidden_layers": 1,
+    "dropout": 0.7,
+    "lr": 0.0004108579456254154,
+    "batch_size": 32,
+    "epochs": 20,
+    "loss": "ce",
+    "imbalance": "None",
+    "norm": "none",
+    "seed": null,
+    "trial": 43
+  },
+  "input_shape": [
+    1,
+    25,
+    1536
+  ],
+  "independent_test": {
+    "TP": 769.0,
+    "FP": 411.0,
+    "TN": 997.0,
+    "FN": 341.0,
+    "Sens": 0.6927927927927928,
+    "Spec": 0.7080965909090909,
+    "Acc": 0.7013502779984114,
+    "MCC": 0.3988580042883699,
+    "AUC": 0.7500467086404586,
+    "PR_AUC": 0.6738317944013709,
+    "F1": 0.6716157205240174,
+    "Prec": 0.6516949152542373,
+    "Recall": 0.6927927927927928,
+    "Threshold": 0.4585672616958618
+  },
+  "weights": "best_MCNN_Ankh3.weights.h5",
+  "scaler": null,
+  "saved_at": "2026-10-24T17:36:02"
+}

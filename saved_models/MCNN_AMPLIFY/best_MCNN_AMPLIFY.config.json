@@ -1,0 +1,49 @@
+{
+  "config": {
+    "feature": "AMPLIFY",
+    "num_feature": 960,
+    "maxseq": 25,
+    "window_sizes": [
+      5,
+      14,
+      19,
+      25
+    ],
+    "num_filters": 64,
+    "num_hidden": 256,
+    "num_hidden_layers": 3,
+    "dropout": 0.7,
+    "lr": 0.00011294327613003265,
+    "batch_size": 128,
+    "epochs": 20,
+    "loss": "ce",
+    "imbalance": "None",
+    "norm": "zscore",
+    "seed": null,
+    "trial": 48
+  },
+  "input_shape": [
+    1,
+    25,
+    960
+  ],
+  "independent_test": {
+    "TP": 740.0,
+    "FP": 451.0,
+    "TN": 957.0,
+    "FN": 370.0,
+    "Sens": 0.6666666666666666,
+    "Spec": 0.6796875,
+    "Acc": 0.6739475774424146,
+    "MCC": 0.34442279856433816,
+    "AUC": 0.7187391226453727,
+    "PR_AUC": 0.6361127625506937,
+    "F1": 0.6431986093003043,
+    "Prec": 0.6213266162888329,
+    "Recall": 0.6666666666666666,
+    "Threshold": 0.4950506091117859
+  },
+  "weights": "best_MCNN_AMPLIFY.weights.h5",
+  "scaler": "best_MCNN_AMPLIFY.scaler.npz",
+  "saved_at": "2026-10-24T13:21:03"
+}

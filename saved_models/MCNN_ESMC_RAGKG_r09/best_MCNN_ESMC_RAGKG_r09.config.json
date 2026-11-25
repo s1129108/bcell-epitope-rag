@@ -1,0 +1,53 @@
+{
+  "config": {
+    "feature": "ESMC_RAGKG_r09",
+    "num_feature": 1152,
+    "maxseq": 25,
+    "window_sizes": [
+      2,
+      9,
+      11,
+      25
+    ],
+    "num_filters": 64,
+    "num_hidden": 128,
+    "num_hidden_layers": 3,
+    "dropout": 0.7,
+    "head": "ffn",
+    "lstm_units": 128,
+    "lstm_merge": "time",
+    "lr": 0.002369195248294311,
+    "batch_size": 128,
+    "epochs": 20,
+    "loss": "ce",
+    "imbalance": "None",
+    "norm": "none",
+    "mask_pad": false,
+    "seed": 1,
+    "trial": 48
+  },
+  "input_shape": [
+    1,
+    25,
+    1152
+  ],
+  "independent_test": {
+    "TP": 1026.0,
+    "FP": 381.0,
+    "TN": 1027.0,
+    "FN": 84.0,
+    "Sens": 0.9243243243243243,
+    "Spec": 0.7294034090909091,
+    "Acc": 0.8153296266878475,
+    "MCC": 0.6536656270894458,
+    "AUC": 0.9089731777231776,
+    "PR_AUC": 0.8897558880809706,
+    "F1": 0.8152562574493445,
+    "Prec": 0.7292110874200426,
+    "Recall": 0.9243243243243243,
+    "Threshold": 0.9573898911476135
+  },
+  "weights": "best_MCNN_ESMC_RAGKG_r09.weights.h5",
+  "scaler": null,
+  "saved_at": "2026-11-25T12:49:54"
+}
